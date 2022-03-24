@@ -1,0 +1,262 @@
+/* Resets elements to look the same across various browsers */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.25;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+* {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-style: none;
+  margin: 0;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  outline: none;
+  background: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+  background-color: transparent;
+  color: inherit;
+  border-width: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+button:-moz-focus-inner, [type="button"]:-moz-focus-inner, [type="reset"]:-moz-focus-inner, [type="submit"]:-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+  outline: 1px dotted #828282;
+}
+
+textarea {
+  overflow: auto;
+  background: rgba(255, 255, 255, 0);
+}
+
+[type="checkbox"], [type="radio"] {
+  padding: 0;
+}
+
+[type="number"]:-webkit-inner-spin-button {
+  height: auto;
+}
+
+[type="number"]:-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type="search"]:-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+label {
+  cursor: pointer;
+}
+
+[hidden] {
+  display: none;
+}
+
+iframe {
+  border: none;
+  margin: 0;
+}
+
+.cv {
+  font-family: 'Maven Pro';
+  width: 210mm;
+  margin: 1rem auto 2rem auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 22% auto;
+      grid-template-columns: 22% auto;
+  gap: 1rem;
+}
+
+.cv img {
+  max-width: 100%;
+}
+
+.cv .contact h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cv .contact p {
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+.cv .block-title {
+  font-size: 1.25rem;
+  text-align: right;
+  font-style: italic;
+}
+
+.cv .block-info {
+  margin-bottom: 1rem;
+}
+
+.cv .block-detail {
+  margin-bottom: .75rem;
+}
+
+.cv .block-detail-heading {
+  font-size: 1.15rem;
+  margin-bottom: .25rem;
+}
+
+.cv .block-detail-heading strong {
+  margin-right: 1rem;
+}
+
+.cv .block-detail p {
+  text-align: justify;
+}
+
+.cv .skills {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: .75rem;
+  text-align: center;
+}
+
+.cv .skills .skill {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 16px;
+  border: 1px solid #d6d6d6;
+}
+
+.cv .skills .skill::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 14px;
+  background: #d6d6d6;
+}
+
+.cv .skills .skill-1::after {
+  width: 20%;
+}
+
+.cv .skills .skill-2::after {
+  width: 40%;
+}
+
+.cv .skills .skill-3::after {
+  width: 60%;
+}
+
+.cv .skills .skill-4::after {
+  width: 80%;
+}
+
+.cv .skills .skill-5::after {
+  width: 100%;
+}
+
+.cv .skills .skill-info {
+  -ms-grid-column-span: 3;
+      grid-column-end: span 3;
+  text-align: justify;
+}
+
+.cv .about-me {
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
+  text-align: justify;
+}
+
+.cv .about-me h2 {
+  margin-bottom: 1rem;
+}
+
+.cv .about-me p {
+  margin-bottom: .75rem;
+}
+/*# sourceMappingURL=CV.css.map */

@@ -1,0 +1,107 @@
+@charset "UTF-8"
+
+/* Resets elements to look the same across various browsers */
+
+html
+	box-sizing: border-box
+	line-height: 1.25
+	backface-visibility: hidden
+*
+	box-sizing: inherit
+	&:before
+	&:after
+		box-sizing: inherit
+
+html, body
+	margin: 0
+	padding: 0
+
+main
+	display: block
+
+h1, h2, h3, h4, h5, h6
+	margin: 0
+	font-weight: inherit
+
+p
+	margin: 0
+
+a
+	background-color: transparent
+	text-decoration: none
+	color: inherit
+	cursor: pointer
+	&:hover
+		text-decoration: underline
+
+b, strong
+	font-weight: 700
+
+ul
+	margin: 0
+	padding: 0
+
+img
+	border-style: none
+	margin: 0
+
+button, input, optgroup, select, textarea
+	font-family: inherit
+	font-size: 100%
+	line-height: 1.15
+	margin: 0
+	outline: none
+	background: rgba(255, 255, 255, 0)
+	box-shadow: none
+
+button, input
+	overflow: visible
+
+button, select
+	text-transform: none
+
+button, [type="button"], [type="reset"], [type="submit"]
+	-webkit-appearance: button
+	background-color: transparent
+	color: inherit
+	border-width: 0
+	padding: 0
+	cursor: pointer
+	&:-moz-focus-inner
+		border-style: none
+		padding: 0
+	&:-moz-focusring
+		outline: 1px dotted #828282
+
+textarea
+	overflow: auto
+	background: rgba(255, 255, 255, 0)
+
+[type="checkbox"], [type="radio"]
+	padding: 0
+
+[type="number"]
+	&:-webkit-inner-spin-button
+		height: auto
+	&:-webkit-outer-spin-button
+		height: auto
+
+[type="search"]
+	-webkit-appearance: textfield
+	outline-offset: -2px
+	&:-webkit-search-decoration
+		-webkit-appearance: none
+
+::-webkit-file-upload-button
+	-webkit-appearance: button
+	font: inherit
+
+label
+	cursor: pointer
+
+[hidden]
+	display: none
+
+iframe
+	border: none
+	margin: 0
