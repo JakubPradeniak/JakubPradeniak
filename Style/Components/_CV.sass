@@ -19,6 +19,16 @@
             font-size: 1.15rem
             line-height: 1.5
 
+    .social
+        margin-top: .5rem
+        display: flex
+        flex-direction: row
+        gap: 1rem
+        &__link:hover
+            text-decoration: none
+        &__image
+            width: 1.5rem
+
     .block-title
         font-size: 1.25rem
         text-align: right
@@ -31,9 +41,12 @@
         margin-bottom: .75rem
         &-heading
             font-size: 1.15rem
+            margin-top: .5rem
             margin-bottom: .25rem
             strong
                 margin-right: 1rem
+        &-heading:first-child
+            margin-top: 0
 
         p
             text-align: justify
@@ -79,9 +92,14 @@
             text-align: justify
 
     .about-me
-        grid-column-end: span 2
+        grid-column: -1/1
         text-align: justify
+        margin-top: 5rem
         h2
             margin-bottom: 1rem
         p
             margin-bottom: .75rem
+
+@media print
+    .no-print
+        display: none !important
