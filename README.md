@@ -23,6 +23,7 @@ My CVs (updated regularly):
 
 My skills:
 * English version: https://github.com/JakubPradeniak/JakubPradeniak/blob/master/skills_en.png or skills_en.html
+
 *Swapped from PDF to PNG because PDF format looked bad.*
 *TODO: create better looking PDFs :)*
 
