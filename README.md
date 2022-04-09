@@ -1,8 +1,26 @@
 # About me
-Hi, my name is Jakub Pradeniak, I'm from Czechia and I'm webapp developer.  
+Hi, my name is Jakub Pradeniak, I'm from Czechia and I'm webapp developer, guitarist, gamer and tech enthusiast.  
   
-More info in czech in cv.html and cv.pdf  
-More info in english in cv_en.html and cv_en.pdf  
-All CV files can be found at https://github.com/JakubPradeniak/JakubPradeniak repo  
+### What I can use/work with
+* HTML5/CSS3/JS (ES6)
+* PHP 8
+* MySQL
+* C/C++ (to some extent)
+* Kotlin (currently more like hobby :D)
+* React and learning React Native
+* Figma
+
+And some more, full extent of what I know can be found at *skills* files at JakubPradeniak repo.
+
+### How to contact me
+If you want to contact me (whatever the reason - collab, job offer or just to chat) it would be the best to reach out to me via LinkedIn message (my profile: https://www.linkedin.com/in/jakub-pradeniak/) or email: jakub.pradeniak@bluenet.cz.
+___
+### For recruiters
+My CVs (updated regularly):
+* English version: https://github.com/JakubPradeniak/JakubPradeniak/blob/master/cv_en.pdf or cv_en.html
+* Czech version: https://github.com/JakubPradeniak/JakubPradeniak/blob/master/cv.pdf or cv.html
+
+My skills:
+* English version: https://github.com/JakubPradeniak/JakubPradeniak/blob/master/skills_en.pdf or skills_en.html
 
 I also have my personal info at https://www.linkedin.com/in/jakub-pradeniak/

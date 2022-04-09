@@ -1,0 +1,67 @@
+@charset "UTF-8"
+
+body
+    font-size: $fontSize
+
+.skills
+    font-family: $fontFamily
+    padding: 2rem
+    max-width: 1200px
+    margin: 0 auto
+    &__heading
+        font-weight: 600
+        margin-top: 1.5rem
+        &:first-child
+            margin-top: 0
+    &__intro
+        font-size: 1.25rem
+        text-align: justify
+        margin-top: 1rem
+    &__outro
+        font-size: 1.1rem
+        text-align: justify
+        font-style: italic
+        margin-top: 1.5rem
+
+.skill
+    margin-top: 1.5rem
+    padding: 1.5rem
+    box-shadow: 3px 3px 5px 2px $boxShadow
+    &__heading
+        font-style: italic
+    &__level
+        margin-top: 1.25rem
+        display: flex
+        justify-content: space-between
+        &::before
+            content: "Skill Level:"
+    &__description
+        margin-top: 1rem
+        text-align: justify
+        p
+            margin-top: .75rem
+            &:first-child
+                margin-top: 0
+        ul
+            margin: .5rem 0 .5rem 2rem
+
+.skill-level-dot
+    position: relative
+    display: block
+    width: 1.5rem
+    height: 1.5rem
+    background-color: $bgPrimary
+    border-radius: 50%
+    box-shadow: 1px 1px 3px 1px $boxShadow
+    &::before
+        position: absolute
+        top: .125rem
+        left: .125rem
+        content: " "
+        display: block
+        width: 1.25rem
+        height: 1.25rem
+        background-color: $bgInactive
+        border-radius: 50%
+    &--active::before
+        background-color: $bgActive

@@ -141,170 +141,105 @@ iframe {
   margin: 0;
 }
 
-.cv {
+body {
+  font-size: 16px;
+}
+
+.skills {
   font-family: "Maven Pro";
-  width: 210mm;
-  margin: 1rem auto 2rem auto;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 22% auto;
-      grid-template-columns: 22% auto;
-  gap: 1rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.cv img {
-  max-width: 100%;
+.skills__heading {
+  font-weight: 600;
+  margin-top: 1.5rem;
 }
 
-.cv .contact h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.cv .contact p {
-  font-size: 1.15rem;
-  line-height: 1.5;
-}
-
-.cv .social {
-  margin-top: .5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  gap: 1rem;
-}
-
-.cv .social__link:hover {
-  text-decoration: none;
-}
-
-.cv .social__image {
-  width: 1.5rem;
-}
-
-.cv .block-title {
-  font-size: 1.25rem;
-  text-align: right;
-  font-style: italic;
-}
-
-.cv .block-info {
-  margin-bottom: 1rem;
-}
-
-.cv .block-detail {
-  margin-bottom: .75rem;
-}
-
-.cv .block-detail-heading {
-  font-size: 1.15rem;
-  margin-top: .5rem;
-  margin-bottom: .25rem;
-}
-
-.cv .block-detail-heading strong {
-  margin-right: 1rem;
-}
-
-.cv .block-detail-heading:first-child {
+.skills__heading:first-child {
   margin-top: 0;
 }
 
-.cv .block-detail p {
+.skills__intro {
+  font-size: 1.25rem;
   text-align: justify;
+  margin-top: 1rem;
 }
 
-.cv .skills {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  gap: .75rem;
-  text-align: center;
+.skills__outro {
+  font-size: 1.1rem;
+  text-align: justify;
+  font-style: italic;
+  margin-top: 1.5rem;
 }
 
-.cv .skills .skill-container {
+.skill {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  -webkit-box-shadow: 3px 3px 5px 2px #63636393;
+          box-shadow: 3px 3px 5px 2px #63636393;
+}
+
+.skill__heading {
+  font-style: italic;
+}
+
+.skill__level {
+  margin-top: 1.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: .5rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.cv .skills .skill {
-  display: block;
+.skill__level::before {
+  content: "Skill Level:";
+}
+
+.skill__description {
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.skill__description p {
+  margin-top: .75rem;
+}
+
+.skill__description p:first-child {
+  margin-top: 0;
+}
+
+.skill__description ul {
+  margin: .5rem 0 .5rem 2rem;
+}
+
+.skill-level-dot {
   position: relative;
-  width: 100%;
-  height: 16px;
-  border: 1px solid #d6d6d6;
-}
-
-.cv .skills .skill::after {
-  content: '';
   display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 1px 3px 1px #63636393;
+          box-shadow: 1px 1px 3px 1px #63636393;
+}
+
+.skill-level-dot::before {
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 14px;
-  background: #d6d6d6;
+  top: .125rem;
+  left: .125rem;
+  content: " ";
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: #d8d6d6;
+  border-radius: 50%;
 }
 
-.cv .skills .skill-1::after {
-  width: 20%;
+.skill-level-dot--active::before {
+  background-color: #8ad0ff;
 }
-
-.cv .skills .skill-2::after {
-  width: 40%;
-}
-
-.cv .skills .skill-3::after {
-  width: 60%;
-}
-
-.cv .skills .skill-4::after {
-  width: 80%;
-}
-
-.cv .skills .skill-5::after {
-  width: 100%;
-}
-
-.cv .skills .skill-info {
-  -ms-grid-column-span: 3;
-      grid-column-end: span 3;
-  text-align: justify;
-}
-
-.cv .about-me {
-  grid-column: -1/1;
-  text-align: justify;
-  margin-top: 5rem;
-}
-
-.cv .about-me h2 {
-  margin-bottom: 1rem;
-}
-
-.cv .about-me p {
-  margin-bottom: .75rem;
-}
-
-@media print {
-  .no-print {
-    display: none !important;
-  }
-  .skill-container {
-    margin-top: .5rem;
-  }
-}
-/*# sourceMappingURL=CV.css.map */
+/*# sourceMappingURL=skills.css.map */
