@@ -14,7 +14,7 @@ Hi, my name is Jakub Pradeniak, I'm from Czechia and I'm webapp developer, guita
 And some more, full extent of what I know can be found at *skills* files at JakubPradeniak repo.
 
 ### How to contact me
-If you want to contact me (whatever the reason - collab, job offer or just to chat) it would be the best to reach out to me via LinkedIn message (my profile: https://www.linkedin.com/in/jakub-pradeniak/) or email: jakub.pradeniak@bluenet.cz.
+If you want to contact me (whatever the reason - collab, job offer or just to chat about programmig - questions etc.) it would be the best to reach out to me via LinkedIn message (my profile: https://www.linkedin.com/in/jakub-pradeniak/) or email: jakub.pradeniak@bluenet.cz.
 ___
 ### For recruiters
 Right now I have full-time contract, but you can reach out to me with some smaller (part-time) FE projects.
