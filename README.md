@@ -10,6 +10,7 @@ Hi, my name is Jakub, I'm from Czechia and I'm webapp developer, guitarist, game
 * Kotlin (currently more like hobby :D)
 * React and learning React Native
 * Figma
+* GitLab - custom installations, DevOps setup, CI/CD, sys. admin
 
 And some more stuff :D
 
