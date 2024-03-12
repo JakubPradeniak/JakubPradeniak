@@ -6,8 +6,8 @@ I'm full-stack developer using combinations of PHP8 (Symfony)/React and .NET/Rea
 
 As side projects I'm creating destop apps using Avalonia/C# combo. I'm also working with UE5 + Blender (game dev).
 
-When I'm not programming I'm teaching aspiring developer how to start their journey in apps development - currently I'm lecturer od full-stack development.
-For this purpose I made public repo with minimal MVC writtne in PHP: https://github.com/JakubPradeniak/tiny_mvc
+When I'm not programming I'm teaching aspiring developers how to start their journey in apps development - currently I'm lecturer od full-stack development.
+For this purpose I made public repo with minimal MVC written in PHP: https://github.com/JakubPradeniak/tiny_mvc
   
 And last but no least - I'm GitLab admin - custom installations, DevOps setup, CI/CD, sys. admin etc.
 
