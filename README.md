@@ -5,7 +5,7 @@ I'm a software engineer specializing in full-stack development and cloud archite
 ## 🚧 What I'm working on
 
 * 🪐 **UE5 Planet Generator:** Building a C++ procedural terrain generator. Currently focused on optimizing RHI buffers and keeping memory usage under control while handling millions of vertices.
-* 📝 **Dev Blog:** Documenting my transition between high-level web architecture and low-level game engineering on my [personal website](#) _(WIP)_.
+* 📝 **Dev Blog:** Documenting my transition between high-level web architecture and low-level game engineering on my [personal website](https://jakubpradeniak.com/).
 
 ## 🛠️ My Toolbox
 
